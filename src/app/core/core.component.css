@@ -1,0 +1,22 @@
+/* styles.css or your custom stylesheet */
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the container takes at least the full viewport height */
+}
+
+.app-dashboard {
+  flex: 1; /* Fill remaining space */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Other styles for your navbar, footer, and dashboard content as needed */

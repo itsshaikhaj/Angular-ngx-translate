@@ -1,0 +1,37 @@
+{
+  "navbar": {
+    "home": "ہوم",
+    "faq": "عام سوالات",
+    "lang": "UR",
+    "currency": "کرنسی",
+    "logo_text": "Travel SIM",
+    "languages": {
+      "English": "انگریزی",
+      "Spanish": "ہسپانوی",
+      "French": "فرانسیسی",
+      "German": "جرمن",
+      "Italian": "اطالوی",
+      "Portuguese": "پرتگالی",
+      "Russian": "روسی",
+      "Chinese": "چینی (سادہ)",
+      "Japanese": "جاپانی",
+      "Arabic": "عربی",
+      "Urdu": "اردو"
+    }
+  },
+  "footer": {
+    "links": "مفید لنکس",
+    "privacy_policy": "پرائیویسی پالیسی",
+    "contact_us": "ہم سے رابطہ کریں",
+    "support": "سپورٹ",
+    "our_address": "ہمارا پتہ",
+    "follow_us": "ہمیں فالو کریں",
+    "logo_text": "Travel SIM"
+  },
+  "dashboard": {
+    "title": "ڈیش بورڈ",
+    "welcome_message": "ڈیش بورڈ میں خوش آمدید!",
+    "total_users": "کل صارفین: {{ count }}",
+    "last_login": "آخری لاگ ان: {{ date }}"
+  }
+}

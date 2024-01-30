@@ -1,0 +1,37 @@
+{
+  "navbar": {
+    "home": "Startseite",
+    "faq": "FAQ",
+    "lang": "DE",
+    "currency": "Währung",
+    "logo_text": "Reise-SIM",
+    "languages": {
+      "English": "Englisch",
+      "Spanish": "Spanisch",
+      "French": "Französisch",
+      "German": "Deutsch",
+      "Italian": "Italienisch",
+      "Portuguese": "Portugiesisch",
+      "Russian": "Russisch",
+      "Chinese": "Chinesisch (vereinfacht)",
+      "Japanese": "Japanisch",
+      "Arabic": "Arabisch",
+      "Urdu": "Urdu"
+    }
+  },
+  "footer": {
+    "links": "Nützliche Links",
+    "privacy_policy": "Datenschutzrichtlinie",
+    "contact_us": "Kontaktiere uns",
+    "support": "Unterstützung",
+    "our_address": "Unsere Adresse",
+    "follow_us": "Folge uns",
+    "logo_text": "Reise-SIM"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome_message": "Willkommen im Dashboard!",
+    "total_users": "Gesamtbenutzer: {{ count }}",
+    "last_login": "Letzter Login: {{ date }}"
+  }
+}

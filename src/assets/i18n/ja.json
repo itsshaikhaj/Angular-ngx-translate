@@ -1,0 +1,37 @@
+{
+  "navbar": {
+    "home": "ホーム",
+    "faq": "よくある質問",
+    "lang": "JA",
+    "currency": "通貨",
+    "logo_text": "Travel SIM",
+    "languages": {
+      "English": "英語",
+      "Spanish": "スペイン語",
+      "French": "フランス語",
+      "German": "ドイツ語",
+      "Italian": "イタリア語",
+      "Portuguese": "ポルトガル語",
+      "Russian": "ロシア語",
+      "Chinese": "中国語（簡体字）",
+      "Japanese": "日本語",
+      "Arabic": "アラビア語",
+      "Urdu": "ウルドゥー語"
+    }
+  },
+  "footer": {
+    "links": "有用なリンク",
+    "privacy_policy": "プライバシーポリシー",
+    "contact_us": "お問い合わせ",
+    "support": "サポート",
+    "our_address": "弊社の住所",
+    "follow_us": "フォローする",
+    "logo_text": "Travel SIM"
+  },
+  "dashboard": {
+    "title": "ダッシュボード",
+    "welcome_message": "ダッシュボードへようこそ！",
+    "total_users": "総ユーザー数: {{ count }}",
+    "last_login": "最終ログイン: {{ date }}"
+  }
+}

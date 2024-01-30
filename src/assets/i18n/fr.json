@@ -1,0 +1,37 @@
+{
+  "navbar": {
+    "home": "Accueil",
+    "faq": "FAQ",
+    "lang": "FR",
+    "currency": "Devise",
+    "logo_text": "Carte SIM de voyage",
+    "languages": {
+      "English": "Anglais",
+      "Spanish": "Espagnol",
+      "French": "Français",
+      "German": "Allemand",
+      "Italian": "Italien",
+      "Portuguese": "Portugais",
+      "Russian": "Russe",
+      "Chinese": "Chinois (Simplifié)",
+      "Japanese": "Japonais",
+      "Arabic": "Arabe",
+      "Urdu": "Ourdou"
+    }
+  },
+  "footer": {
+    "links": "Liens utiles",
+    "privacy_policy": "Politique de confidentialité",
+    "contact_us": "Contactez-nous",
+    "support": "Support",
+    "our_address": "Notre adresse",
+    "follow_us": "Suivez-nous",
+    "logo_text": "Carte SIM de voyage"
+  },
+  "dashboard": {
+    "title": "Tableau de bord",
+    "welcome_message": "Bienvenue sur le tableau de bord !",
+    "total_users": "Total des utilisateurs : {{ count }}",
+    "last_login": "Dernière connexion : {{ date }}"
+  }
+}

@@ -1,0 +1,95 @@
+.t-navbar-brand {
+  font-size: 38px;
+  font-style: normal;
+
+  @media (max-width: 1199px) {
+    font-size: 28px;
+  }
+
+  @media (max-width: 767px) {
+    font-size: 22px;
+  }
+}
+
+.t-navbar {
+  .container {
+    @media (max-width: 1199px) {
+      position: relative;
+    }
+
+    .navbar-collapse {
+      @media (max-width: 1199px) {
+        width: 289px;
+        position: absolute;
+        background-color: var(--t-white-color);
+        box-shadow: 3px 4px 51px 0px rgba(0, 0, 0, 0.09);
+        border-radius: 30px;
+        right: 30px;
+        top: 80px;
+        z-index: 1;
+        padding: 16px 26px;
+      }
+
+      .nav-link {
+        @media (max-width: 1199px) {
+          padding-left: 0;
+          position: relative;
+          .gb-chevron-right {
+            box-sizing: border-box;
+            position: absolute;
+            top: 10px;
+            right: 0px;
+            display: inline-flex;
+            transform: scale(var(--ggs, 1));
+            width: 22px;
+            height: 22px;
+            border: 2px solid transparent;
+            border-radius: 100px;
+            color: var(--t-dark-color);
+          }
+
+          .gb-chevron-right::after {
+            content: "";
+            display: block;
+            box-sizing: border-box;
+            position: absolute;
+            height: 1.3vw !important;
+            width: 1.3vw !important;
+            border-bottom: 1px solid;
+            border-right: 1px solid;
+            transform: rotate(-45deg);
+            right: 6px;
+            top: 4px;
+            color: var(--t-dark-color);
+          }
+        }
+      }
+    }
+  }
+  .navbar-nav {
+    .nav-link {
+      font-size: 20px !important;
+      font-family: var(--t-font-medium) !important;
+      padding-left: 85px;
+      padding-right: 0;
+      color: var(--t-dark-color) !important;
+    }
+  }
+}
+
+.language-dropdown-conatiner {
+  .language-flex {
+    display: flex;
+    align-items: center;
+  }
+  .language-sm {
+    width: 35px;
+    margin-right: 10px;
+    flex-shrink: 0;
+  }
+
+  .dropdown-menu {
+    max-height: 150px;
+    overflow: auto;
+  }
+}

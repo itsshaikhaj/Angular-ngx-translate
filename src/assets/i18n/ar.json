@@ -1,0 +1,37 @@
+{
+  "navbar": {
+    "home": "الصفحة الرئيسية",
+    "faq": "الأسئلة الشائعة",
+    "lang": "AR",
+    "currency": "العملة",
+    "logo_text": "Travel SIM",
+    "languages": {
+      "English": "الإنجليزية",
+      "Spanish": "الإسبانية",
+      "French": "الفرنسية",
+      "German": "الألمانية",
+      "Italian": "الإيطالية",
+      "Portuguese": "البرتغالية",
+      "Russian": "الروسية",
+      "Chinese": "الصينية (المبسطة)",
+      "Japanese": "اليابانية",
+      "Arabic": "العربية",
+      "Urdu": "الأردية"
+    }
+  },
+  "footer": {
+    "links": "روابط مفيدة",
+    "privacy_policy": "سياسة الخصوصية",
+    "contact_us": "اتصل بنا",
+    "support": "الدعم",
+    "our_address": "عنواننا",
+    "follow_us": "تابعنا",
+    "logo_text": "Travel SIM"
+  },
+  "dashboard": {
+    "title": "لوحة القيادة",
+    "welcome_message": "مرحبًا بك في لوحة القيادة!",
+    "total_users": "إجمالي عدد المستخدمين: {{ count }}",
+    "last_login": "آخر تسجيل دخول: {{ date }}"
+  }
+}

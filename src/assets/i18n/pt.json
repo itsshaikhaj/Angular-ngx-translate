@@ -1,0 +1,37 @@
+{
+  "navbar": {
+    "home": "Página Inicial",
+    "faq": "Perguntas frequentes",
+    "lang": "PT",
+    "currency": "Moeda",
+    "logo_text": "Travel SIM",
+    "languages": {
+      "English": "Inglês",
+      "Spanish": "Espanhol",
+      "French": "Francês",
+      "German": "Alemão",
+      "Italian": "Italiano",
+      "Portuguese": "Português",
+      "Russian": "Russo",
+      "Chinese": "Chinês (Simplificado)",
+      "Japanese": "Japonês",
+      "Arabic": "Árabe",
+      "Urdu": "Urdu"
+    }
+  },
+  "footer": {
+    "links": "Links úteis",
+    "privacy_policy": "Política de Privacidade",
+    "contact_us": "Fale Conosco",
+    "support": "Suporte",
+    "our_address": "Nosso Endereço",
+    "follow_us": "Siga-nos",
+    "logo_text": "Travel SIM"
+  },
+  "dashboard": {
+    "title": "Painel de Controle",
+    "welcome_message": "Bem-vindo ao painel de controle!",
+    "total_users": "Total de Usuários: {{ count }}",
+    "last_login": "Último login: {{ date }}"
+  }
+}

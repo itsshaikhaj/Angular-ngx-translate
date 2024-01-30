@@ -1,0 +1,25 @@
+/* styles.css or your custom stylesheet */
+
+.dashboard-container {
+  background: linear-gradient(
+    to right,
+    #3494e6,
+    #ec6ead
+  ); /* Gradient background color */
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff; /* Text color for the outer container */
+}
+
+.dashboard-content {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Background color for content with transparency */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+  color: #333; /* Text color for the inner content */
+}

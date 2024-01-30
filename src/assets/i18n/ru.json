@@ -1,0 +1,37 @@
+{
+  "navbar": {
+    "home": "Главная",
+    "faq": "Часто задаваемые вопросы",
+    "lang": "RU",
+    "currency": "Валюта",
+    "logo_text": "Travel SIM",
+    "languages": {
+      "English": "Английский",
+      "Spanish": "Испанский",
+      "French": "Французский",
+      "German": "Немецкий",
+      "Italian": "Итальянский",
+      "Portuguese": "Португальский",
+      "Russian": "Русский",
+      "Chinese": "Китайский (упрощенный)",
+      "Japanese": "Японский",
+      "Arabic": "Арабский",
+      "Urdu": "Урду"
+    }
+  },
+  "footer": {
+    "links": "Полезные ссылки",
+    "privacy_policy": "Политика конфиденциальности",
+    "contact_us": "Свяжитесь с нами",
+    "support": "Поддержка",
+    "our_address": "Наш адрес",
+    "follow_us": "Подписывайтесь на нас",
+    "logo_text": "Travel SIM"
+  },
+  "dashboard": {
+    "title": "Панель управления",
+    "welcome_message": "Добро пожаловать на панель управления!",
+    "total_users": "Всего пользователей: {{ count }}",
+    "last_login": "Последний вход: {{ date }}"
+  }
+}

@@ -1,0 +1,52 @@
+<nav class="navbar t-navbar navbar-expand-xl bg-light">
+  <div class="container">
+    <a class="navbar-brand t-navbar-brand t-font-semibold t-logo-color" href="#">Angular Translate</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" [routerLink]="['/']" routerLinkActive="router-link-active">{{
+            'navbar.home' | translate }}
+            <i class="gb-chevron-right d-none-web"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/faq']" routerLinkActive="router-link-active">{{ 'navbar.faq' |
+            translate }}
+            <i class="gb-chevron-right d-none-web"></i>
+          </a>
+        </li>
+        <li class="nav-item dropdown language-dropdown-conatiner">
+          <button class="btn dropdown-toggle nav-link d-flex align-items-center" type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            {{ selectedlanguage | uppercase }}
+            <span>
+              <svg class="ms-1" xmlns="http://www.w3.org/2000/svg" width="18" height="19" viewBox="0 0 18 19"
+                fill="none">
+                <path
+                  d="M9 18.5C7.77 18.5 6.6075 18.2637 5.5125 17.7912C4.4175 17.3187 3.46125 16.6737 2.64375 15.8562C1.82625 15.0387 1.18125 14.0825 0.70875 12.9875C0.23625 11.8925 0 10.73 0 9.5C0 8.255 0.23625 7.08875 0.70875 6.00125C1.18125 4.91375 1.82625 3.96125 2.64375 3.14375C3.46125 2.32625 4.4175 1.68125 5.5125 1.20875C6.6075 0.73625 7.77 0.5 9 0.5C10.245 0.5 11.4113 0.73625 12.4987 1.20875C13.5862 1.68125 14.5387 2.32625 15.3562 3.14375C16.1737 3.96125 16.8187 4.91375 17.2912 6.00125C17.7637 7.08875 18 8.255 18 9.5C18 10.73 17.7637 11.8925 17.2912 12.9875C16.8187 14.0825 16.1737 15.0387 15.3562 15.8562C14.5387 16.6737 13.5862 17.3187 12.4987 17.7912C11.4113 18.2637 10.245 18.5 9 18.5ZM9 16.655C9.39 16.115 9.7275 15.5525 10.0125 14.9675C10.2975 14.3825 10.53 13.76 10.71 13.1H7.29C7.47 13.76 7.7025 14.3825 7.9875 14.9675C8.2725 15.5525 8.61 16.115 9 16.655ZM6.66 16.295C6.39 15.8 6.15375 15.2863 5.95125 14.7537C5.74875 14.2212 5.58 13.67 5.445 13.1H2.79C3.225 13.85 3.76875 14.5025 4.42125 15.0575C5.07375 15.6125 5.82 16.025 6.66 16.295ZM11.34 16.295C12.18 16.025 12.9263 15.6125 13.5788 15.0575C14.2313 14.5025 14.775 13.85 15.21 13.1H12.555C12.42 13.67 12.2513 14.2212 12.0487 14.7537C11.8462 15.2863 11.61 15.8 11.34 16.295ZM2.025 11.3H5.085C5.04 11 5.00625 10.7037 4.98375 10.4112C4.96125 10.1187 4.95 9.815 4.95 9.5C4.95 9.185 4.96125 8.88125 4.98375 8.58875C5.00625 8.29625 5.04 8 5.085 7.7H2.025C1.95 8 1.89375 8.29625 1.85625 8.58875C1.81875 8.88125 1.8 9.185 1.8 9.5C1.8 9.815 1.81875 10.1187 1.85625 10.4112C1.89375 10.7037 1.95 11 2.025 11.3ZM6.885 11.3H11.115C11.16 11 11.1938 10.7037 11.2163 10.4112C11.2388 10.1187 11.25 9.815 11.25 9.5C11.25 9.185 11.2388 8.88125 11.2163 8.58875C11.1938 8.29625 11.16 8 11.115 7.7H6.885C6.84 8 6.80625 8.29625 6.78375 8.58875C6.76125 8.88125 6.75 9.185 6.75 9.5C6.75 9.815 6.76125 10.1187 6.78375 10.4112C6.80625 10.7037 6.84 11 6.885 11.3ZM12.915 11.3H15.975C16.05 11 16.1062 10.7037 16.1437 10.4112C16.1812 10.1187 16.2 9.815 16.2 9.5C16.2 9.185 16.1812 8.88125 16.1437 8.58875C16.1062 8.29625 16.05 8 15.975 7.7H12.915C12.96 8 12.9938 8.29625 13.0163 8.58875C13.0388 8.88125 13.05 9.185 13.05 9.5C13.05 9.815 13.0388 10.1187 13.0163 10.4112C12.9938 10.7037 12.96 11 12.915 11.3ZM12.555 5.9H15.21C14.775 5.15 14.2313 4.4975 13.5788 3.9425C12.9263 3.3875 12.18 2.975 11.34 2.705C11.61 3.2 11.8462 3.71375 12.0487 4.24625C12.2513 4.77875 12.42 5.33 12.555 5.9ZM7.29 5.9H10.71C10.53 5.24 10.2975 4.6175 10.0125 4.0325C9.7275 3.4475 9.39 2.885 9 2.345C8.61 2.885 8.2725 3.4475 7.9875 4.0325C7.7025 4.6175 7.47 5.24 7.29 5.9ZM2.79 5.9H5.445C5.58 5.33 5.74875 4.77875 5.95125 4.24625C6.15375 3.71375 6.39 3.2 6.66 2.705C5.82 2.975 5.07375 3.3875 4.42125 3.9425C3.76875 4.4975 3.225 5.15 2.79 5.9Z"
+                  fill="#303030" />
+              </svg>
+            </span>
+          </button>
+          <ul class="dropdown-menu">
+            <li *ngFor="let lang of languages">
+              <a class="dropdown-item language-flex cursor-pointer gap-3" (click)="changeLanguage(lang?.code)">
+                <span class="language-sm"> {{ lang?.code |
+                  uppercase }} </span>
+                <span class="language-detailed">{{ 'navbar.languages.' +
+                  lang?.name |
+                  translate }}
+                </span>
+              </a>
+            </li>
+          </ul>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
