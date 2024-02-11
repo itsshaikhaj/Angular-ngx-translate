@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
 })
 export class DashboardComponent {
   totalUsers = 100;
+
   lastLoginDate = new Date();
 }
